@@ -3,7 +3,7 @@ package homework1.homework2;
 import homework1.Microwave;
 import org.junit.jupiter.api.Test;
 
-public class ObjectHomework6 {
+public class ObjectMicrowave {
     @Test
     public void workingWithMicrowave() {
       Microwave firstMicrowave = new Microwave();

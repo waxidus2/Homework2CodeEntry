@@ -3,7 +3,7 @@ package homework1.homework2;
 import homework1.Refrigerator;
 import org.junit.jupiter.api.Test;
 
-public class ObjectHomework8 {
+public class ObjectRefregirator {
     @Test
     public void workingWithRefregirator() {
       Refrigerator firstRefrigerator = new Refrigerator();

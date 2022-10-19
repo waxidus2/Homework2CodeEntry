@@ -3,7 +3,7 @@ package homework1.homework2;
 import homework1.Window;
 import org.junit.jupiter.api.Test;
 
-public class ObjectHomework10 {
+public class ObjectWindow {
     @Test
     public void workingWithWindow() {
       Window firstWindow = new Window();

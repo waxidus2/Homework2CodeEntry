@@ -3,7 +3,7 @@ package homework1.homework2;
 import homework1.Bad;
 import org.junit.jupiter.api.Test;
 
-public class ObjectHomework4 {
+public class ObjectBad {
     @Test
     public void workingWithBad() {
         Bad firstBad = new Bad();

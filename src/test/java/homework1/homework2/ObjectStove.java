@@ -3,7 +3,7 @@ package homework1.homework2;
 import homework1.Stove;
 import org.junit.jupiter.api.Test;
 
-public class ObjectHomework3 {
+public class ObjectStove {
     @Test
     public void workingWithStove() {
       Stove firstStove = new Stove();

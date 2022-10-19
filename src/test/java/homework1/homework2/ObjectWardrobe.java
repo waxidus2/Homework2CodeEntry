@@ -3,7 +3,7 @@ package homework1.homework2;
 import homework1.Wardrobe;
 import org.junit.jupiter.api.Test;
 
-public class ObjectHomework9 {
+public class ObjectWardrobe {
     @Test
     public void workingWithWardrobe() {
       Wardrobe firstWardrobe = new Wardrobe();

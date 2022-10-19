@@ -3,7 +3,7 @@ package homework1.homework2;
 import homework1.Door;
 import org.junit.jupiter.api.Test;
 
-public class ObjectHomework1 {
+public class ObjectDoor {
     @Test
     public void workingWithDoor() {
       Door firstDoor = new Door();

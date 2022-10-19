@@ -3,7 +3,7 @@ package homework1.homework2;
 import homework1.LedTV;
 import org.junit.jupiter.api.Test;
 
-public class ObjectHomework5 {
+public class ObjectLedTV {
     @Test
     public void workingWithLedTV() {
       LedTV firstLedTV = new LedTV();
