@@ -1,4 +1,4 @@
-package homework1.homework2;
+package finishedhomework;
 
 import homework1.Door;
 import org.junit.jupiter.api.Test;
