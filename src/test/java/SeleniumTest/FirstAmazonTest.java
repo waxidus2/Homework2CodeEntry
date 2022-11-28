@@ -19,6 +19,7 @@ public class FirstAmazonTest {
  private final By BEST_SELLERS_BTN = By.xpath(".//a[@href=\"/-/en/gp/bestsellers/?ref_=nav_cs_bestsellers\"]");
  private final By BOOKS_BTN = By.xpath(".//a[@href=\"/-/en/gp/bestsellers/books/ref=zg_bs_nav_0\"]");
  private final By BOOK_NR4 = By.xpath(".//img[@alt=\"Frag doch mal ... die Maus: Daily Calendar 2023 - My Calendar for Every Day\"]");
+ private final By SEE_OLL_REVIEWS_BTN = By.xpath("//a[@data-hook=\"see-all-reviews-link-foot\"]");
 
 
 @Test
@@ -61,6 +62,14 @@ public class FirstAmazonTest {
     } else {
         System.out.println("test fail");
     }
+
+    wait.until(ExpectedConditions.elementToBeClickable(SEE_OLL_REVIEWS_BTN));
+    browser.findElement(SEE_OLL_REVIEWS_BTN).click();
+
+    String reviews = browser.findElement(By.xpath("//div[@data-hook=\"cr-filter-info-review-rating-count\"]")).getText();
+    System.out.println(reviews);
+
+
 
     }
 }
