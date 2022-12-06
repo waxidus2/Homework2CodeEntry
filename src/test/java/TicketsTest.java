@@ -25,6 +25,7 @@ public class TicketsTest {
     private final By FLIGHT = By.id("flight");
     private final By BOOKK_BTN = By.id("book2");
     private final By DESTANATION = By.xpath(".//div[@class=\"infoTxt\"]");
+    private final By GET_PRICE = By.xpath(".//span[@style=\"cursor: pointer;\"]");
 
 
 
@@ -60,6 +61,9 @@ public class TicketsTest {
         type(CHILDREN, "1");//Children Count
         type(BAG, "2");//Bag Count
         select(FLIGHT, "13");//Flight Date
+
+        wait.until(ExpectedConditions.elementToBeClickable(GET_PRICE));
+        browser.findElement(GET_PRICE).click();
 
         
 
